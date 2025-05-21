@@ -1,0 +1,50 @@
+name: aviz_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.4.1
+  dio: ^5.7.0
+  get_it: ^7.7.0
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  dartz: ^0.10.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_staggered_animations: ^1.1.0
+  smooth_page_indicator: ^1.2.1
+  dotted_line: ^3.0.1
+  dotted_border: ^2.0.0
+  rxdart: ^0.27.7
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.1.0
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Dana
+      fonts:
+        - asset: assets/fonts/dana.ttf
+    - family: ShabnamBold
+      fonts:
+        - asset: assets/fonts/ShabnamBold.ttf
